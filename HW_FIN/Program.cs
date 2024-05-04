@@ -30,7 +30,7 @@ static string[] CreateAndFillFinArray(string[] array)
         {
             k++;
             Array.Resize(ref FinArr, k);
-            FinArr[k-1] = array[i];
+            FinArr[k - 1] = array[i];
         }
     }
     return FinArr;
